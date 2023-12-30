@@ -19,7 +19,7 @@ function QRCodePopup() {
         <div className="qr-code-container">
           <img
             alt="QR code to share the webpage"
-            src="/sampleQR.png"
+            src={require("./sampleQR.png")}
             className="qr-code img-fluid"
           />
         </div>
